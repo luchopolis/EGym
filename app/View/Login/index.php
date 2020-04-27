@@ -50,7 +50,7 @@ if(!empty($UsuarioInfo)){
 
               <input type="submit" class="btn btn-dark" value="Ingresar">
               <div class="col-12">
-                <a href="#">
+                <a href="<?= RUTA_URL?>ForgotPassword">
                   Olvido la Contraseña?
                 </a>
               </div>

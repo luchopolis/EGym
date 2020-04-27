@@ -191,67 +191,33 @@ if (empty($UsuarioInfo)) {
             <div class="theme-settings__inner">
                 <div class="scrollbar-container">
                     <div class="theme-settings__options-wrapper">
-                        <h3 class="themeoptions-heading">Layout Options
-                        </h3>
+			<h3 class="themeoptions-heading">Información de usuario</h3>
                         <div class="p-3">
                             <ul class="list-group">
                                 <li class="list-group-item">
                                     <div class="widget-content p-0">
-                                        <div class="widget-content-wrapper">
+                                        <div class="widget-content-wrapper justify-content-center">
                                             <div class="widget-content-left mr-3">
-                                                <div class="switch has-switch switch-container-class" data-class="fixed-header">
-                                                    <div class="switch-animate switch-on">
-                                                        <input type="checkbox" checked data-toggle="toggle" data-onstyle="success">
-                                                    </div>
+                                            <div class="text-center">
+                                                    <p>Nombre usuario: <span class="text-danger"><?= $DataUsuario->UserName;?></span></p>
+                                                    <p>Correo: <span class="text-danger"><?= $DataUsuario->Email?></span></p>
+                                                    <p>Rol: <span class="text-danger"><?= $DataUsuario->Tipo?></span></p>
                                                 </div>
                                             </div>
                                             <div class="widget-content-left">
-                                                <div class="widget-heading">Fixed Header
+                                                <div class="widget-heading">
+                                                <img class="rounded-circle" src="<?php echo RUTA_URL . "images/" . $DataUsuario->NombreImagen ?>" alt="">
                                                 </div>
-                                                <div class="widget-subheading">Makes the header top fixed, always visible!
-                                                </div>
+                                                
+                                                
+
+                                                
                                             </div>
                                         </div>
                                     </div>
                                 </li>
-                                <li class="list-group-item">
-                                    <div class="widget-content p-0">
-                                        <div class="widget-content-wrapper">
-                                            <div class="widget-content-left mr-3">
-                                                <div class="switch has-switch switch-container-class" data-class="fixed-sidebar">
-                                                    <div class="switch-animate switch-on">
-                                                        <input type="checkbox" checked data-toggle="toggle" data-onstyle="success">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="widget-content-left">
-                                                <div class="widget-heading">Fixed Sidebar
-                                                </div>
-                                                <div class="widget-subheading">Makes the sidebar left fixed, always visible!
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li class="list-group-item">
-                                    <div class="widget-content p-0">
-                                        <div class="widget-content-wrapper">
-                                            <div class="widget-content-left mr-3">
-                                                <div class="switch has-switch switch-container-class" data-class="fixed-footer">
-                                                    <div class="switch-animate switch-off">
-                                                        <input type="checkbox" data-toggle="toggle" data-onstyle="success">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="widget-content-left">
-                                                <div class="widget-heading">Fixed Footer
-                                                </div>
-                                                <div class="widget-subheading">Makes the app footer bottom fixed, always visible!
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
+                                
+                                
                             </ul>
                         </div>
                         <h3 class="themeoptions-heading">

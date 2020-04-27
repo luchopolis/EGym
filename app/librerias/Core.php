@@ -44,7 +44,7 @@ class Core{
         //echo $this->metodoActual;
 
         $this->parametros = $url ? array_values($url) : [];
-
+        
         call_user_func_array([$this->controladorActual,$this->metodoActual],$this->parametros);
     }
     public function getUrl(){

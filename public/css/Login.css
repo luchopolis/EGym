@@ -1,0 +1,61 @@
+html {
+  height: 100%;
+  width: 100%; }
+
+body {
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0; }
+
+.container-fluid {
+  width: 100%;
+  height: 100%;
+  padding: 0; }
+
+.row {
+  width: 100%;
+  height: 100%; }
+
+.formContainer {
+  background: white;
+  padding: 5px;
+  margin: auto; }
+
+form {
+  margin: auto; }
+
+.formContainer {
+  text-align: center; }
+
+.formContainer form input {
+  width: 100%; }
+
+.formContainer form input[type="submit"] {
+  color: white;
+  margin-top: 5px;
+  -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+          box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5); }
+
+.ImageLeft {
+  width: 100%;
+  height: 100%; }
+
+.LeftImageForm {
+  height: 100%;
+  width: 100%;
+  background-image: url("../images/LeftWallpaper.jpg");
+  background-size: cover;
+  background-position: center center; }
+
+#Asgard {
+  color: white; }
+
+#GYM {
+  color: steelblue; }
+
+h4 {
+  color: white; }
+
+/*# sourceMappingURL=estilos.css.map */
